@@ -7,7 +7,7 @@
 
 .home {
   height: 100%;
-  padding-top: 37vh;
+  padding-top: 40vh;
   overflow: hidden;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -19,7 +19,7 @@
 }
 
 .home__name {
-  font-size: 5rem;
+  font-size: 4rem;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   border-bottom: 2px solid #fff;
@@ -517,6 +517,12 @@
 @media screen and (min-width: 1600px) {
   .projects__bio-image {
     height: 50vh;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .home {
+    padding-top: 30vh;
   }
 }
 
