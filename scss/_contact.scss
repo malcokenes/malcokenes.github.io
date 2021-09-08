@@ -1,0 +1,54 @@
+.contact {
+  height: 100%;
+  padding-top: 37vh;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+      to right,
+      rgba($primary-color, 0.6),
+      rgba($secondary-color, 0.3)
+    ),
+    url("../img/pp.jpg") center top;
+  background-size: cover;
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+  }
+
+  &__email,
+  &__phone,
+  &__address {
+    background: linear-gradient(
+      to right,
+      rgba($primary-color, 0.7),
+      rgba(rgb(73, 73, 255), 0.2)
+    );
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    border: 2px pink solid;
+    border-radius: 10px;
+  }
+
+  .text-secondary {
+    font-size: 1.25rem;
+  }
+  .social-icons {
+    position: initial;
+    margin-top: 2rem;
+  }
+}
