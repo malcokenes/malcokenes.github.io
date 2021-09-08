@@ -520,7 +520,7 @@
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (max-height: 640px) {
   .home {
     padding-top: 30vh;
   }
